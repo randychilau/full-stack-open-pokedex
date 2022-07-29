@@ -33,3 +33,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fullstack-landy-pokedex"
           heroku_email: "randychilau@gmail.com"
+          healthcheck: "https://fullstack-landy-pokedex.herokuapp.com/health"
+          checkstring: "ok"
