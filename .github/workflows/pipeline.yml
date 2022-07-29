@@ -35,3 +35,4 @@ jobs:
           heroku_email: "randychilau@gmail.com"
           healthcheck: "https://fullstack-landy-pokedex.herokuapp.com/health"
           checkstring: "ok"
+          delay: 5
