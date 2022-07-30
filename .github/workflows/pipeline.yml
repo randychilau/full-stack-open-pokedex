@@ -39,7 +39,7 @@ jobs:
           heroku_email: "randychilau@gmail.com"
           healthcheck: "https://salty-caverns-08525.herokuapp.com/health"
           checkstring: "ok"
-          delay: 5
+          delay: 10
           rollbackonhealthcheckfailed: true
   tag_release:
     needs: [simple_deployment_pipeline]
