@@ -35,9 +35,9 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "guarded-ravine-59066"
+          heroku_app_name: "salty-caverns-08525"
           heroku_email: "randychilau@gmail.com"
-          healthcheck: "https://guarded-ravine-59066.herokuapp.com/health"
+          healthcheck: "https://salty-caverns-08525.herokuapp.com/health"
           checkstring: "ok"
           delay: 5
           rollbackonhealthcheckfailed: true
